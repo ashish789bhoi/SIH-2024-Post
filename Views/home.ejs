@@ -1,0 +1,91 @@
+<%- layout("/layouts/boilerplate.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/stylesheets/home.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Popup Structure -->
+     <div class="popup">
+        <button class="close-btn">&times;</button>
+        <img src="/images/home/loader_img.png" alt="Welcome Image">
+        <div class="text-container">Welcome to Our Website!</div>
+    </div> 
+
+
+    <div class="image-section">
+        <img src="/images/home/job_banner.jpg" alt="Descriptive Text" class="responsive-image">
+    </div>
+
+    <!-- News Section -->
+    <div class="update-section">
+        <!-- Left Section -->
+        <div class="left-section">
+            <div class="heading-container">
+                <h2>Job Updates</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="update-card">
+                <p>Stay ahead in your career with the latest job openings in the banking and insurance sectors! Our Job Updates section features curated listings tailored to your skills and aspirations, ensuring you find opportunities that resonate with your career goals. Whether you're a recent graduate eager to start your journey or an experienced professional looking for new challenges, we offer a diverse range of roles that align with the evolving financial landscape.
+
+                The financial sector is constantly influenced by demographic needs and seasonal variations, creating a dynamic environment ripe with opportunities. Our platform not only connects you with job openings but also provides insights into the skills that are currently in demand, helping you enhance your employability.
+
+                Check back regularly for new positions, upcoming recruitment events, and valuable resources designed to support your job search and career development.
+                </p>
+                <span class="timestamp">August 18, 2024 - 10:00 AM</span>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="card">
+                <h3>Banking and Insurance Jobs</h3>
+                <p>
+                <ul class="bulletin-points">
+                <li><strong>Bank Officer:</strong> Manage customer accounts and provide financial advice.</li>
+                <li><strong>Loan Officer:</strong> Assess and approve loan applications based on financial evaluations.</li>
+                <li><strong>Insurance Underwriter:</strong> Evaluate insurance applications to determine risk and coverage.</li>
+                <li><strong>Financial Advisor:</strong> Guide clients on investment strategies and financial planning.</li>
+                <li><strong>Customer Service Representative:</strong> Assist clients with inquiries and resolve issues related to banking services.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="card">
+                <h3>Finance and Insurance Careers</h3>
+                <p>
+               <ul class="bulletin-points">
+               <li><strong>Branch Manager:</strong> Oversee branch operations and ensure exceptional customer service.</li>
+               <li><strong>Risk Analyst:</strong> Identify and analyze potential risks to the organization's financial health.</li>
+               <li><strong>Claims Adjuster:</strong> Investigate insurance claims and determine payout amounts.</li>
+               <li><strong>Investment Banker:</strong> Assist clients in raising capital and providing strategic advisory services.</li>
+               <li><strong>Compliance Officer:</strong> Ensure that banking operations adhere to laws and regulations.</li>
+               </ul>
+               </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <div class="about-us-content">
+            <h2>About Us</h2>
+            <p>Welcome to the Banking and Insurance Job Updates platform, an initiative dedicated to connecting job seekers with the latest opportunities in the financial sector. Our mission is to bridge the gap between talented individuals and organizations seeking skilled professionals for various roles in banking and insurance.
+
+                Our user-friendly interface allows you to easily explore exciting job openings, access resources for career development, and connect with potential employers. Whether you’re a recent graduate stepping into the workforce or an experienced professional seeking new challenges, we are committed to supporting you at every stage of your career.
+                
+                At our platform, we believe that a strong workforce in banking and insurance is essential for driving economic growth and enhancing financial services across the region. By providing timely job updates and valuable insights, we aim to empower individuals to achieve their professional goals and contribute to a robust financial landscape.
+                
+                Join us in advancing your career in banking and insurance. Explore our Job Updates section, connect with opportunities, and become part of a vibrant community focused on excellence and professional growth.
+                </p>
+        </div>
+    </section>
+    <script src="/javascripts/home.js"></script>
+
+</body>
+</html>
